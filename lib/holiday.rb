@@ -68,7 +68,6 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday_event, supply|
       puts "  #{holiday_event.to_s.split("_").each{|element| element.capitalize!}.join(" ")}: #{supply.join(", ")}" 
     end
-  end  
 end	
 
 end
